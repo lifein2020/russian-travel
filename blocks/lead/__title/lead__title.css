@@ -18,11 +18,11 @@
     max-width: 720px;
     font-size: 96px;
     line-height: 100px;
-    /* or 104% */ I
+    /* or 104% */
   }
 }
 
-/*@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .lead__title {
     width: calc(100% - 304px);
   }
@@ -32,4 +32,4 @@
   .lead__title {
     width: calc(100% - 560px);
   }
-}*/
+} */
