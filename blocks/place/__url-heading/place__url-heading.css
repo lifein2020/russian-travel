@@ -1,0 +1,29 @@
+.place__url-heading {
+  /*max-width: calc(100% - 32px);
+  margin: 32px auto 0;*/
+  margin: 0 0 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.2em;
+}
+
+/*@media screen and (min-width: 768px) {  размер ширины не нужен т.к. ширина 2-го столбца грид-контейнера minmax(min-content, max-content)
+  .place__url-heading {
+    margin-left: 0;
+    max-width: 352px;
+  }
+}*/
+
+@media screen and (min-width: 1024px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    /*margin-left: 0;
+    max-width: 352px;*/
+  }
+}

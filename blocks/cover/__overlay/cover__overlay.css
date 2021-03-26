@@ -1,0 +1,24 @@
+.cover__overlay {
+  margin: auto;
+  padding-bottom: 62.5%; /*height: 740px;*/
+  max-width: 100%;
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 1;
+  transition: opacity .2s ease-in;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+  max-width: 1184px;
+}
+}

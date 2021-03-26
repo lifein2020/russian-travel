@@ -1,0 +1,15 @@
+.section__title_place {
+  margin-left: 16px;
+  max-width: calc(100% - 32px);
+}
+
+@media screen and (min-width: 768px) {
+  .section__title_place {
+    margin-left: 0;
+    max-width: 340px;
+    /*min-height: 92px;*/
+    font-size: 42px;
+    line-height: 46px;
+    /* or 110% */
+  }
+}

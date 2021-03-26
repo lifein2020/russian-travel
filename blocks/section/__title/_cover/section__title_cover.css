@@ -1,0 +1,28 @@
+.section__title_cover {
+  margin: 0 auto;
+  max-width: 288px;
+  /*width: 90%;*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16.5%;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title_cover {
+    max-width: 560px;
+    top: 23.96%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__title_cover {
+    top: 33.47%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__title_cover {
+    top: 33.11%;
+  }
+}

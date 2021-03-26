@@ -1,0 +1,48 @@
+.intro__title {
+  margin: auto;
+  /*max-width: 288px;*/
+  width: calc(100% - 32px);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-rendering: optimizeLegibility; /*рендеринга шрифта(кёрнинг и лигатуры)*/
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    /*max-width: 720px;*/
+    width: calc(100% - 48px);
+    font-size: 54px;
+    line-height: 58px;
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    max-width: 690px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    margin-left: 148px;
+  }
+}
+
+
+/*.intro__title {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107%
+  text-rendering: optimizeLegibility;
+}*/
+
+
