@@ -1,4 +1,4 @@
-.section__title {
+.section-title {
   margin: 0;
   font-family: Inter;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
   @media screen and (min-width: 768px) {
-    .section__title {
+    .section-title {
       font-size: 72px;
       line-height: 76px;
       /* or 106% */
