@@ -25,5 +25,5 @@
 
 **GitHub Pages**
 
-https://github.com/lifein2020/russian-travel
+https://lifein2020.github.io/russian-travel/
 
