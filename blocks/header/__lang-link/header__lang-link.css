@@ -1,16 +1,11 @@
 .header__lang-link {
-  font-family: Inter;
+  font-family: Inter, system, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
   /* identical to box height, or 117% */
   color: #FFFFFF;
-  margin-right: 18px;
-}
-
-.header__lang-link:last-child {
-  margin-right: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,7 +1,7 @@
 .footer__menu-link {
   text-decoration: none;
   color: #FFFFFF;
-  font-family: Inter;
+  font-family: 'Inter', system, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
