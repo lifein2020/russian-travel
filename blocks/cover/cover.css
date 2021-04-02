@@ -1,7 +1,9 @@
 .cover {
+  position: relative;
+  padding-bottom: 62.5%;
+  margin: auto;
   margin-top: 66px;
-  /*position: relative;
-  padding-bottom: 63%;/*740px;*/
+  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,3 +17,10 @@
     margin-top: 92px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: calc(100% - 96px);
+  }
+}
+

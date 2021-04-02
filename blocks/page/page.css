@@ -1,9 +1,6 @@
 .page {
-  /*margin: 0 auto;*/
-  /*padding: 0 48px;*/
-
-  /*min-width: 320px;
-  max-width: 1280px;*/
+  margin: 0 auto;
+  max-width: 1280px;
   background-color: #2A2C2F;
   color: #FFFFFF;
   /*вендорное св-во для сглаживания кастомных шрифтов*/
@@ -14,19 +11,3 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-
-
-/*padding: 0 16px;
-@media screen and (min-width: 768px) {
-  .page {
-    padding: 0 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    padding: 0 48px;
-  }
-}*/
-
-

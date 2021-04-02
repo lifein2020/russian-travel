@@ -1,13 +1,10 @@
 .place__link {
   margin: 0;
-  /*margin-left: 16px;
-  max-width: calc(100% - 32px);*/
   font-family: Inter, system, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
   color: #FFFFFF;
   opacity: 1;
   transition: opacity .2s ease-in;
@@ -15,10 +12,3 @@
 .place__link:hover {
   opacity: 0.8;
 }
-
-/*@media screen and (min-width: 768px) {
-  .place__link {
-    margin-left: 0;
-    max-width: 352px;
-  }
-}*/

@@ -1,28 +1,35 @@
-.section-title_cover {
+.cover__title {
   margin: 0 auto;
   max-width: 288px;
-  /*width: 90%;*/
   position: absolute;
   left: 0;
   right: 0;
   top: 16.5%;
+  z-index: 3;
+  font-family: 'Inter', system, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px; /* or 109% */
 }
 
 @media screen and (min-width: 768px) {
-  .section-title_cover {
+  .cover__title {
     max-width: 560px;
     top: 23.96%;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .section-title_cover {
+  .cover__title {
     top: 33.47%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section-title_cover {
+  .cover__title {
     top: 33.11%;
   }
 }
