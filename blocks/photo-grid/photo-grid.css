@@ -12,7 +12,7 @@
 @media screen and (min-width: 768px) {
   .photo-grid {
     margin: 88px auto 0;
-    max-width: calc(100% - 32px);
+    max-width: calc(100% - 48px);
   }
 }
 
@@ -25,6 +25,34 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
-    grid-template-columns: repeat(4, 284px);
+    grid-template-columns: repeat(4, 284px); /*если ограничивать размер блока page*/
   }
 }
+
+
+/*--------------Второй способ------------------*/
+
+/*.photo-grid {
+  margin: 64px auto 0;
+  max-width: calc(100% - 32px);
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    margin: 88px auto 0;
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    margin: 92px auto 0;
+    max-width: calc(100% - 96px);
+  }
+}*/
+
+
+
