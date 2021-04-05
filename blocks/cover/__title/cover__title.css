@@ -1,22 +1,18 @@
 .cover__title {
-  margin: 0 auto;
+  margin: 33px auto 16px;
   max-width: 288px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 16.5%;
-  z-index: 3;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px; /* or 109% */
+  white-space: pre-line;
 }
 
 @media screen and (min-width: 768px) {
   .cover__title {
+    margin: 115px auto 32px;
     max-width: 560px;
-    top: 23.96%;
     font-size: 72px;
     line-height: 76px;
   }
@@ -24,12 +20,12 @@
 
 @media screen and (min-width: 1024px) {
   .cover__title {
-    top: 33.47%;
+    margin: 195px auto 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__title {
-    top: 33.11%;
+    margin: 245px auto 32px;
   }
 }

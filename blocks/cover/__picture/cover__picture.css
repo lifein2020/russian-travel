@@ -5,11 +5,27 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 1;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
   text-decoration: none;
   text-align: center;
-  color: #FFFFFF;
+  color: inherit;
+}
+
+.cover__picture::after  {
+  content: ""; /*это св-во здесть чтобы псевдоэлемент был видимым*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity .2s ease-in;
+}
+.cover__picture:hover::after {
+  opacity: 0.8;
 }

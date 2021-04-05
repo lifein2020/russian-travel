@@ -1,11 +1,6 @@
 .cover__subtitle {
-  margin: 0 auto;
+  margin: auto;
   max-width: 288px;
-  position: absolute;
-  top: 59.5%;
-  left: 0;
-  right: 0;
-  z-index: 3;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -16,23 +11,7 @@
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     max-width: 360px;
-    top: 62.29%;
     font-size: 18px;
     line-height: 22px; /* or 122% */
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    top: 59.22%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    top: 57.97%;
-  }
-}
-
-
-
