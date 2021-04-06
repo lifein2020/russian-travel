@@ -1,8 +1,8 @@
 .photo-grid__item {
-  margin: 0;
   width: 100%;
+  /*margin: 0;
   height: 100%;
-  object-fit: contain; /*фото на всю ширину блока*/
+  object-fit: contain; margin: *фото на всю ширину блока*/
 }
 
 @media screen and (min-width: 768px) {
