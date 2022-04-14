@@ -5,10 +5,10 @@
 https://lifein2020.github.io/russian-travel/
 
 **Functionality:**
-* external links on the topic
+* external links
 * links darkened on hover
-* menu in the footer of the site
-* link to the version of the page in English
+* footer menu
+* link to the English version
 
 **Technology:**
 * HTML
